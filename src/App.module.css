@@ -7,6 +7,7 @@
 
 .heading{
   text-align: center;
+
 }
 
 .search {
@@ -26,7 +27,7 @@
 }
 
 .synonymTextInput:focus {
-  color: #00B4CC;
+  color: #111;
 }
 
 .searchButton {
@@ -45,7 +46,32 @@
 .wrap {
   width: 30%;
   position: absolute;
-  top: 30%;
+  margin-top: 250px;
+  /* top: 25%; */
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.resultContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.result {
+  height: 50px;
+  width: 40%;
+  border: #111;
+  border-width: 1px;
+  border-radius: 12px;
+  border-style: solid;
+  margin-bottom: 10px;
 }
